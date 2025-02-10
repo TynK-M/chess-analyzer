@@ -1,0 +1,110 @@
+# Eclipse specific
+.metadata/
+bin/
+*.log
+*.class
+*.jar
+
+# Maven specific
+target/
+*.jar
+*.war
+*.ear
+
+# IDE specifici (IntelliJ IDEA, Eclipse, VS Code, etc.)
+# Eclipse
+*.iml
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Visual Studio Code
+.vscode/
+
+# File di configurazione sensibili (esempio per .properties o .env)
+# Ignora file che potrebbero contenere password o chiavi API
+*.properties
+*.env
+config/*.properties
+config/secrets/*
+
+# File di configurazione per gestione delle credenziali o chiavi API
+*.key
+*.pem
+*.p12
+*.crt
+*.json # Se hai file JSON per configurazioni come API keys
+*.yml # Se usi YAML per configurazioni sensibili
+
+# File di configurazione temporanei
+*.tmp
+*.bak
+*~
+
+# File di log
+*.log
+
+# File di backup generati dai vari editor
+*.swp
+*.swo
+
+# File di sistema (creati da Windows, macOS, ecc.)
+.DS_Store
+Thumbs.db
+
+# File di cache di sistema
+.idea/.idea_modules
+.idea/.idea
+
+# Cache dei pacchetti (se stai usando npm o simili)
+node_modules/
+
+# File di pacchetti temporanei
+*.tgz
+*.zip
+*.tar.gz
+
+# Altri file temporanei o generati
+*.out
+*.pid
+*.orig
+*.rej
+
+# Maven Wrapper
+.mvn/
+.mvnw
+.mvnw.cmd
+
+# Cartelle specifiche di build o artefatti temporanei
+target/
+build/
+
+# Certificati SSL generati
+*.csr
+*.crt
+
+# File specifici per gestione delle chiavi
+*.key
+*.pem
+*.p12
+*.crt
+config/keys.properties
+
+# File di configurazione per il deployment (es. AWS, GCP, Azure)
+*.json
+*.yml
+.aws/
+.gcp/
+.azure/
+
+# Cattura altri file temporanei creati dai vari editor, IDE o sistemi operativi
+*.bak
+*.swp
+*.swo
+
